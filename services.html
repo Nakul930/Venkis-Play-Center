@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venki's Play Centre- Lets Play with Maths</title>
+    <link rel="icon" href="images/logo.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;1,600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2f8b3f166a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="sub-header">
+        <nav> 
+            <img src="images/logo.png" alt="logo">
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact us</a></li>
+                </ul>
+            </div>  
+            <i class="fas fa-bars" onclick="showmenu()"></i> 
+        </nav>
+            <h1>Our Services!</h1>
+    </section>
+    <section class="acomplishments">
+        <h1>Happy To Help You 24X7!</h1>
+        <p>We provide various courses as per your need Here are some courses as follows-.</p>
+        <div class="row">
+            <div class="row1">
+                <img src="images/provide.jpeg" alt="">
+                <h3>Mathematic's Tutions</h3>
+                <p>We are providing mathematics coaching from last five years to 11th/12th/Diploma and Engineering Students. We have always been able to produce 85% and above result from last five years. </p>
+            </div>
+            <div class="row1">
+                <img src="images/provide2.jpg" id="ser1" alt="">
+                <h3>Aptitude and Logical Resoning</h3>
+                <p>We have started aptitude training and logical resoning course from last 3 years and we are proud to say that it helped most of our students for gettting a good packages in there required Industries</p>
+            </div>
+            <div class="row1">
+                <img src="images/provide3.jpg" alt="">
+                <h3>Spoken English</h3>
+                <p>Spoken English is a must now a days. We have started spoken english from last 1 year and helped our students to do better in there respective professional fields.</p>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <h4>About Us!</h4>
+        <p>We have a experienced staff which will provide answer to your every questions. We have experience<br> of 5 years in the coaching industry. We are publishing excellent results<br> from past 5 years and yet more to come!</p>
+        <div class="icons">
+            <a href="https://instagram.com/venku_kabra?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.facebook.com/venkatesh.kabara?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://youtube.com/@classroompoetry7172"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://play.google.com/store/apps/details?id=co.thor.xhjtw"><i class="fa-brands fa-google-play"></i></a>
+        </div>
+        <p>Made with <i class="fa-solid fa-heart"></i> By Nakul Tiwari</p>
+    </section>
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showmenu(){
+        navLinks.style.right="0"
+    }
+    function hidemenu(){
+        navLinks.style.right="-200px"
+    }
+</script>
+</body>
+</html>
